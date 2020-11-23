@@ -129,7 +129,7 @@ body {
   background-color: #F5F4FA;
 }
 
-.team-list {
+.team-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.187;
@@ -138,6 +138,8 @@ body {
 .team-position {
   color: var(--secondary-text-color);
   font-weight: 400;
+  font-size: 16px;
+  line-height: 1.187; 
 }
 /* ================= ABOUT and TEAM END ================= */
 /* ================= FOOTER ================= */
@@ -168,7 +170,7 @@ body {
 /* ================= FOOTER END ================= */
 /* ================= PORTFOLIO ================= */
 
-.button {
+.button-list .button {
   color: var(--primary-text-color);
   background-color: #F5F4FA;
   font-family: var(--general-font-family); 
@@ -179,8 +181,8 @@ body {
   letter-spacing: 0.03em;
 }
 
-.button:hover,
-.button:focus {
+.button-list .button:hover,
+.button-list .button:focus {
   color: #ffffff;
   background-color: var(--accent-color);
 }
